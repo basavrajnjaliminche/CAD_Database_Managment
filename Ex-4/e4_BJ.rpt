@@ -1,0 +1,46 @@
+﻿PROG8080 Section 7
+Exercise 4
+ 
+Basavraj Jaliminche
+8800149
+Dec  4 2022  9:44PM
+Msg 2627, Level 14, State 1, Line 16
+Violation of PRIMARY KEY constraint 'Person_PK'. Cannot insert duplicate key in object 'dbo.Person'. The duplicate key value is (7424476).
+The statement has been terminated.
+
+(1 row affected)
+
+(31 rows affected)
+Msg 2627, Level 14, State 1, Line 34
+Violation of PRIMARY KEY constraint 'Student_PK'. Cannot insert duplicate key in object 'dbo.Student'. The duplicate key value is (7424476).
+The statement has been terminated.
+
+(1 row affected)
+
+(1 row affected)
+
+(1 row affected)
+
+(1 row affected)
+Msg 2627, Level 14, State 1, Line 79
+Violation of PRIMARY KEY constraint 'StudentProgram_PK'. Cannot insert duplicate key in object 'dbo.StudentProgram'. The duplicate key value is (7424476, 0066C).
+The statement has been terminated.
+
+(1 row affected)
+
+(1 row affected)
+Msg 2627, Level 14, State 1, Line 112
+Violation of PRIMARY KEY constraint 'CourseStudent_PK'. Cannot insert duplicate key in object 'dbo.CourseStudent'. The duplicate key value is (62, 7424476).
+The statement has been terminated.
+
+(1 row affected)
+
+(1 row affected)
+
+(1 row affected)
+
+(1 row affected)
+
+(1 row affected)
+
+Completion time: 2022-12-04T21:44:17.8344580-05:00
